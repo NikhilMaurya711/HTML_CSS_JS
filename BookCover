@@ -11,10 +11,12 @@
             
             }
             #top{
-                background-color: gray;
                 height: 200px;
+                background-image: repeating-linear-gradient(-45deg,gray,white,gray 0.5%);
                 position:relative; 
-                direction:rtl;      
+                direction:rtl;    
+                font-size: 11px;
+               
             }
 
             #top p{
@@ -44,7 +46,7 @@
             .top-content{
                 width:65%;
                text-align: right;
-                margin-right: 20px;
+               margin-right: 20px;
                 position: relative;
                
             }
@@ -95,16 +97,15 @@
     </div>
     <div class="top-content">
         <p>
-            "When you strive to comprehand your code, 
-            you create better work amd 
-            become better at work you do.
-            The code isn't just your job anymore,
-            It's Your craft. 
-            This is why I love Up & Going."<span ></span><br><Strong>-JENN LUKAS</Strong> Frontend consultant</span>
+            "When you strive to comprehand your code, you create better
+             work and become better at work you do. The code isn't just
+             your job anymore,It's Your craft. This is why I love Up & Going."
+            
+            <span ></span><br><Strong>-JENN LUKAS</Strong> Frontend consultant</span>
         </p>
     
-        <h2 style="padding: 0 25px; font-size: 25px;">KYLE SIMPSON</h2>
     </div>
+    <h2 style="margin-right: 20px; font-size: 30px; position: absolute;bottom: -10px;">KYLE SIMPSON</h2>
   </div>
 
   <div class="common" id="middle">
