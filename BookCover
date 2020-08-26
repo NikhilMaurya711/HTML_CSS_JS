@@ -83,7 +83,7 @@
                 z-index: 1;
                 margin-right: 20px;
                 top: -350px;
-                left: 145px;
+                left: 165px;
                 font-weight: 900;
             }
 
@@ -113,8 +113,8 @@
   </div>
       
   <div class="common" id="bottom">
-      <strong>JS</strong>
-        <p class="in-text">YOU DON'T KNOW</p>
+      <strong>JS <p class="in-text">YOU DON'T KNOW</p></strong>
+       
   </div>
     </body>
 </html>
