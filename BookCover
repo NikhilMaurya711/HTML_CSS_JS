@@ -7,7 +7,7 @@
                 text-align: right;
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 max-height: 100vw;min-height: 50vw;
-                max-width: 45vw;min-width:30vw;
+                width: 45vw;
               
             
             }
@@ -32,9 +32,9 @@
             }
 
             .top-left sup{
-                border :0.5px solid white;
-                border-radius: 10px;
-                font-size: 3px;
+                border :0.05vw solid white;
+                border-radius: 1vw;
+                font-size: 0.3vw;
                 vertical-align:text-top;
                 display: inline;
                
@@ -63,6 +63,8 @@
             #bottom {
                 background-color: rgba(255, 239, 8, 0.82);
                 height:40vw;
+                width: inherit;
+                position: absolute;
             }
 
             #bottom Strong{
@@ -70,21 +72,18 @@
                 font-size: 35vw;
                 color: rgba(0, 0, 0,0.9);
                 z-index: 1;
-                position: absolute;
-                margin: 0 3vw;
-                left: 6vw;;        
-                
+                margin: 0 3vw;        
             }
 
             #bottom .in-text{
                color:  rgba(255, 239, 8, 0.82);
-                font-size:2.85vw; 
+                font-size:3vw; 
                 writing-mode: vertical-lr;
                 transform: rotate(180deg);
                 position: relative;
                 z-index: 1;
                 left:12vw;
-                top: 9vw;
+                top: -31vw;
                
             }
 
